@@ -1,0 +1,36 @@
+{
+  "name": "teslo-shop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:turbo": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "ts-node src/seed/seed-database.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.6.0",
+    "clsx": "^2.0.0",
+    "next": "14.0.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^4.11.0",
+    "swiper": "^11.0.3",
+    "zustand": "^4.4.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1",
+    "postcss": "^8",
+    "prisma": "^5.6.0",
+    "tailwindcss": "^3.3.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5"
+  }
+}
